@@ -1,40 +1,45 @@
 {
-  "name": "scandipwa-study",
-  "version": "0.0.1",
-  "license": "OSL-3.0",
-  "dependencies": {
-    "@scandipwa/scandipwa": "4.2.1",
-    "@scandipwa/scandipwa-scripts": "2.3.7"
-  },
-  "scandipwa": {
-    "type": "theme",
-    "locales": {
-      "en_US": true
+    "name": "scandipwa-study",
+    "version": "0.0.1",
+    "license": "OSL-3.0",
+    "dependencies": {
+        "@scandipwa/scandipwa": "4.2.1",
+        "@scandipwa/scandipwa-scripts": "2.3.7",
+        "scandi-dark-theme": "file:packages\\scandi-dark-theme"
     },
-    "parentTheme": "@scandipwa/scandipwa",
-    "extensions": {}
-  },
-  "scripts": {
-    "start": "scandipwa-scripts start",
-    "build": "scandipwa-scripts build"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "@scandipwa",
-    "ignorePatterns": [
-      "src/**"
-    ]
-  },
-  "proxy": "https://40kskudemo.scandipwa.com/"
+    "scandipwa": {
+        "type": "theme",
+        "locales": {
+            "en_US": true
+        },
+        "parentTheme": "@scandipwa/scandipwa",
+        "extensions": {
+            "scandi-dark-theme": true
+        }
+    },
+    "scripts": {
+        "start": "scandipwa-scripts start",
+        "build": "scandipwa-scripts build",
+        "postinstall": "scandipwa-scripts link",
+        "postupdate": "scandipwa-scripts link"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "eslintConfig": {
+        "extends": "@scandipwa",
+        "ignorePatterns": [
+            "src/**"
+        ]
+    },
+    "proxy": "https://40kskudemo.scandipwa.com/"
 }

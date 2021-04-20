@@ -11780,6 +11780,9 @@ saxes@^5.0.1:
   dependencies:
     xmlchars "^2.2.0"
 
+"scandi-dark-theme@file:packages/scandi-dark-theme":
+  version "0.0.0"
+
 scheduler@^0.19.1:
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
