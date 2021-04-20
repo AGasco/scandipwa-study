@@ -1,9 +1,7 @@
 /* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/jsx-curly-spacing */
-/* eslint-disable comma-dangle */
 /* eslint-disable indent */
-/* eslint-disable quotes */
+/* eslint-disable no-unused-vars */
 
 import ModeToggleButton from '../component/ModeToggleButton';
 
