@@ -29,7 +29,7 @@ Working on learning how to :
 <ul>
   <li>Place a component wherever I desire (pixel-perfect)</li>
   <li>Override base styles</li>
-    <li>Create and implement a new plugin by myself (no tutorial) - <b style="color: green;">DONE</b></li>
+    <li>Create and implement a new plugin by myself - <b>DONE</b></li>
 </ul>
 
 
