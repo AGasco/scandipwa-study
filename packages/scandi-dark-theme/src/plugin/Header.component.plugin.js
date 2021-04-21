@@ -22,7 +22,7 @@ export const renderTopMenu = (args, callback, instance) => (
 );
 
 export const renderRouter = (args, callback, instance) => (
-  <DarkModeProvider>{callback(...args)}</DarkModeProvider>
+  <DarkModeProvider key="router">{callback(...args)}</DarkModeProvider>
 );
 
 export const render = (args, callback, instance) => (

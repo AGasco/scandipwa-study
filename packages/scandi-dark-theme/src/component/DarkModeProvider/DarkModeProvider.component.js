@@ -20,9 +20,6 @@ export class DarkModeProviderComponent extends PureComponent {
   render() {
     const { children, isDarkModeEnabled } = this.props;
 
-    console.log('isDarkModeEnabled', isDarkModeEnabled);
-    console.log('children', children);
-
     return (
       <div block="DarkModeProvider" mods={{ isEnabled: isDarkModeEnabled }}>
         {children}

@@ -11780,6 +11780,9 @@ saxes@^5.0.1:
   dependencies:
     xmlchars "^2.2.0"
 
+"scandi-breather@file:packages/scandi-breather":
+  version "0.0.0"
+
 "scandi-dark-theme@file:packages/scandi-dark-theme":
   version "0.0.0"
 
