@@ -1,49 +1,33 @@
-# Getting Started with Create ScandiPWA App
+# ScandiPWA Study
 
-This package contains new ScandiPWA theme sources. Your parent theme is `@scandipwa/scandipwa`.
+This repository is being used to study and practice with ScandiPWA.
 
-## Installation
 
-Before you start, make sure to install package dependencies.
+## Implemented
 
-To do this, use `yarn` or `npm i` command.
+<b>Dark Mode Theme: </b> I've followed this tutorial here: https://docs.scandipwa.com/tutorials/dark-mode-extension
 
-### Recommended packages
 
-For the best expirience, install `scandipwa-cli` package globally. To do this, run:
+## Problems I've encountered
 
-```bash
-npm i -g scandipwa-cli
-```
+These are the problems that I've found: 
 
-## Available Scripts
+#### Dark-Theme:
 
-### `npm run start` or `yarn start`
+<ul>
+  <li>Only <code>Header.component.plugin.js</code> gets connected to the rest of the app. When I try to do the same steps but for App.component.plugin.js (to override its method renderRouter) and Image.component.plugin.js(to override its method render)</li>
+    <li>Dark Theme is applied to everything except the background. I followed every step and even compared my code to the gitlab repository provided by the tutorial teacher. It seems DarkModeProvider wraps App but doesn't apply the effect to the background</li>
+</ul>
 
-Starts the development server.
+I will try to understand what's the problem and try to solve this issues.
 
-**Features**:
-- The page will reload if you make edits.
-- You will also see any lint errors in the console.
+## Next steps
+Working on learning how to :
 
-### `npm run build` or `yarn build`
-
-Bundles the app into static files for production.
-
-> **Note**: To bundle your application as valid Magento 2 theme use `--magento` option.
-
-**Features**:
-- The build is minified and the filenames include the hashes.
-- The build is optimized for the best performance
-
-## Extensions
-
-To install an extension, run following command:
-
-```bash
-scandipwa extension <EXTENSION NAME>
-```
-
-> **Note**: to create new extension add `--create` option after the command. This will create a new extension package under `packages` folder.
+<ul>
+  <li>Place a component wherever I desire (pixel-perfect)</li>
+  <li>Override base styles</li>
+  <li>Create and implement a new plugin by myself (no tutorial)</li>
+</ul>
 
 
