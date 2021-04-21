@@ -5,7 +5,7 @@ This repository is being used to study and practice with ScandiPWA.
 
 ## Implemented
 
-<b>Dark Mode Theme: </b> I've followed this tutorial here: https://docs.scandipwa.com/tutorials/dark-mode-extension
+<b>Dark Mode Theme:</b> I've followed this tutorial here: https://docs.scandipwa.com/tutorials/dark-mode-extension
 
 
 ## Problems I've encountered
