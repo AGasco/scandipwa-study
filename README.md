@@ -15,11 +15,11 @@ These are the problems that I've found:
 #### Dark-Theme:
 
 <ul>
-  <li>Only <code>Header.component.plugin.js</code> gets connected to the rest of the app. When I try to do the same steps but for App.component.plugin.js (to override its method renderRouter) and Image.component.plugin.js(to override its method render)</li>
+  <li>Only <code>Header.component.plugin.js</code> gets connected to the rest of the app. When I try to do the same steps but for <code>App.component.plugin.js</code> (to override its method renderRouter) and <code>Image.component.plugin.js</code>(to override its method render), 'member-function' property doesn't override the selected method</li>
     <li>Dark Theme is applied to everything except the background. I followed every step and even compared my code to the gitlab repository provided by the tutorial teacher. It seems DarkModeProvider wraps App but doesn't apply the effect to the background</li>
 </ul>
 
-I will try to understand what's the problem and try to solve this issues.
+I will try to understand what the problems are and solve these issues.
 
 ## Next steps
 Working on learning how to :
