@@ -8,6 +8,8 @@ import ModeToggleButton from '../component/ModeToggleButton';
 
 import DarkModeProvider from '../component/DarkModeProvider';
 
+import ColorInverter from '../component/ColorInverter';
+
 import './Header.style.plugin';
 
 export const renderTopMenu = (args, callback, instance) => (
@@ -23,6 +25,10 @@ export const renderRouter = (args, callback, instance) => (
   <DarkModeProvider>{callback(...args)}</DarkModeProvider>
 );
 
+export const render = (args, callback, instance) => (
+  <ColorInverter>{callback(...args)}</ColorInverter>
+);
+
 export default {
   'Component/Header/Component': {
     'member-function': {
@@ -32,6 +38,11 @@ export default {
   'Component/App/Component': {
     'member-function': {
       renderRouter
+    }
+  },
+  'Component/Image/Component': {
+    'member-function': {
+      render
     }
   }
 };
