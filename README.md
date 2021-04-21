@@ -19,7 +19,7 @@ These are the problems that I've found:
     <li>Dark Theme is applied to everything except the background. I followed every step and even compared my code to the gitlab repository provided by the tutorial teacher. It seems DarkModeProvider wraps App but doesn't apply the effect to the background</li>
 </ul>
 
-I will try to understand what the problems are and solve these issues.
+I will try to understand why these problems occur and solve these issues.
 
 ## Next steps
 Working on learning how to :
