@@ -17,8 +17,8 @@ These are the problems that I've found:
 #### Dark-Theme:
 
 <ul>
-    <li><b>Dark Theme</b> is applied to everything except the background. I followed every step and even compared my code to the gitlab repository provided by the tutorial teacher. It seems DarkModeProvider wraps App but doesn't apply the effect to the background</li>
-    <li><b>ColorInverter</b> acts as a wrapper for all Image components. When implementing it, ScandiPWA logo doesn't show anymore. <b>Breathing Plugin</b> has the same issue (wrapping all Images hides the HomePage logo)</li>
+    <li><b>Dark Theme</b> is applied to everything except the background. I followed every step and even compared my code to the gitlab repository provided by the tutorial teacher. It seems DarkModeProvider wraps <code>App</code> but doesn't apply the effect to the background</li>
+    <li><b>ColorInverter</b> acts as a wrapper for all <code>Image</code> components. When implementing it, ScandiPWA logo doesn't show anymore. <b>Breathing Plugin</b> has the same issue (wrapping all <code>Image</code> hides the HomePage logo)</li>
 </ul>
 
 I will try to understand why these problems occur and solve these issues.
