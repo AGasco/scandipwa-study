@@ -27,9 +27,10 @@ I will try to understand why these problems occur and solve these issues.
 Working on learning how to :
 
 <ul>
-  <li>Place a component wherever I desire (pixel-perfect)</li>
-  <li>Override base styles</li>
+    <li>Place a component wherever I desire (pixel-perfect)</li>
+    <li>Override base styles</li>
     <li>Create and implement a new plugin by myself - <b>DONE</b></li>
+    <li>Understand GraphQL implementation. Create new GraphQL requests to grab data customized to my needs</li>
 </ul>
 
 
